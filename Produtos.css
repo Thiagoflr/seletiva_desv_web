@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Página de Produtos</title>
+<style>
+/* Estilo CSS para página de produtos */
+  .produto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .produto img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .produto .descricao {
+    font-weight: bold;
+  }
+</style>
+</head>
+</html>

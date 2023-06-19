@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <title>Página de cadastro</title>
+ <style>
+    /* Estilo CSS para página de cadastro */
+    body {
+      background-image: url(C:\Users\usuário\Downloads\Logo\LogoNome.JPG);width="800" height="300" alt=(C:\Users\usuário\Downloads\Logo\LogoNome.JPG)
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #920000f3;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+    }
+    h2 {
+      text-align: center;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="endereco"]
+    input[type="number"]
+    input[type="tel"]
+    input[tpye="date"]
+    input[password="tel"]
+    input[password="date"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #020202;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+</html>
