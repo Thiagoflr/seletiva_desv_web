@@ -8,9 +8,6 @@
   <style>
     /* Estilos CSS para página de início */
     body {
-      background-image: url(C:\Users\usuário\Downloads\Logo\LogoNome.JPG);width="800" height="300" alt=(C:\Users\usuário\Downloads\Logo\LogoNome.JPG)
-      background-repeat: no-repeat;
-      background-size: cover;
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       padding: 20px;
@@ -30,18 +27,14 @@
     }
     
     .button {
-      display: block;
+      display: flex;
       background-color: var(--cor1);
       color: white;
       padding: 10px 20px;
       border-radius: 4px;
       padding: 0;
     }
-    section {
-        display: flex;
-       /* flex-wrap: wrap; */
-        justify-content: space-around;
-    }
+    
     .button:hover {
       opacity: 0.8;
     }

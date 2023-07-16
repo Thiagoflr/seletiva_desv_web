@@ -1,3 +1,6 @@
+:root {
+  --cor1: #000000;
+}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,9 +8,6 @@
   <style>
     /* Estilos CSS para página de início */
     body {
-      background-image: url(C:\Users\usuário\Downloads\Logo\LogoNome.JPG);width="800" height="300" alt=(C:\Users\usuário\Downloads\Logo\LogoNome.JPG)
-      background-repeat: no-repeat;
-      background-size: cover;
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       padding: 20px;
@@ -28,13 +28,10 @@
     
     .button {
       display: inline-block;
-      background-color: #000000;
+      background-color: var(--cor1);
       color: white;
       padding: 10px 20px;
-      border: none;
       border-radius: 4px;
-      text-decoration: none;
-      cursor: pointer;
     }
     
     .button:hover {
