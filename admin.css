@@ -9,10 +9,10 @@
       background-color: #f4f4f4;
     }
 
-    section  {
-      display: x;
+    .button {
+      display: inline-block;
     }
-    
+
     .container {
       max-width: 800px;
       margin: 0 auto;
